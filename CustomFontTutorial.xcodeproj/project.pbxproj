@@ -11,6 +11,7 @@
 		5E35D66D2A5402FD002C6EEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35D66C2A5402FD002C6EEC /* ContentView.swift */; };
 		5E35D66F2A5402FE002C6EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E35D66E2A5402FE002C6EEC /* Assets.xcassets */; };
 		5E35D6722A5402FE002C6EEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E35D6712A5402FE002C6EEC /* Preview Assets.xcassets */; };
+		5E35D6792A54031A002C6EEC /* MouldyCheese.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E35D6782A54031A002C6EEC /* MouldyCheese.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		5E35D66C2A5402FD002C6EEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E35D66E2A5402FE002C6EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E35D6712A5402FE002C6EEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E35D6782A54031A002C6EEC /* MouldyCheese.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MouldyCheese.ttf; sourceTree = "<group>"; };
+		5E35D67A2A540368002C6EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		5E35D6692A5402FD002C6EEC /* CustomFontTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				5E35D67A2A540368002C6EEC /* Info.plist */,
+				5E35D6782A54031A002C6EEC /* MouldyCheese.ttf */,
 				5E35D66A2A5402FD002C6EEC /* CustomFontTutorialApp.swift */,
 				5E35D66C2A5402FD002C6EEC /* ContentView.swift */,
 				5E35D66E2A5402FE002C6EEC /* Assets.xcassets */,
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E35D6722A5402FE002C6EEC /* Preview Assets.xcassets in Resources */,
+				5E35D6792A54031A002C6EEC /* MouldyCheese.ttf in Resources */,
 				5E35D66F2A5402FE002C6EEC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = 4K59AN948M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = 4K59AN948M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
